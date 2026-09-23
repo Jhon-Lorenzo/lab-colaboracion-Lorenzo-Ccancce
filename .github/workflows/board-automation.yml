@@ -59,7 +59,7 @@ jobs:
           fi
           
           echo "Buscando IDs del Proyecto, Campo, y Opción..."
-          PROJECT_ID=$(gh project list --format json \
+          PROJECT_ID=$(gh project list --owner "$ORG" --format json \
             -q ".projects[]|select(.number == "$PROJECT_NUMBER").id")
           
           # Obtenemos la información del campo "Status" y sus opciones en una sola llamada
