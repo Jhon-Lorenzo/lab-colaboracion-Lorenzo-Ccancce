@@ -33,4 +33,4 @@ Captura del mensaje de validación exitosa al realizar el commit siguiendo el es
 ## Colaboradores
 Lista de compañeros que participan en la dinámica de colaboración:
 
-- *(Nombre y Apellido del Colaborador)*
+- *Jhon Lorenzo Ccancce*
